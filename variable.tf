@@ -12,7 +12,7 @@ variable "tenant_id"{
 }
 variable "resource_name"{
   type=string
-  default = 
+  default = "example-rg"
 }
 variable "location"{
   type=string
