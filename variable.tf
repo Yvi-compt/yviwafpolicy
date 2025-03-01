@@ -10,7 +10,7 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
-variable "resource_name"{
+/*variable "resource_name"{
   type=string
 }
 variable "location"{
@@ -135,4 +135,4 @@ variable "rule_enabled2"{
 }
 variable "rule_action2"{
   type=string
-}
+}*/
