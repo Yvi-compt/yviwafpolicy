@@ -12,12 +12,11 @@ variable "tenant_id"{
 }
 variable "resource_name"{
   type=string
-  default = "example-rg"
+  
 }
 variable "location"{
   type=string
-  default = "east us"
-}
+  }
 variable "custom_rule_name1"{
   type=string
 }
