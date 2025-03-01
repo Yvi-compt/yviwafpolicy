@@ -10,13 +10,13 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
-/*variable "resource_name"{
+variable "resource_name"{
   type=string
 }
 variable "location"{
   type=string
 }
-variable "custom_rule_name1"{
+/*variable "custom_rule_name1"{
   type=string
 }
 variable "custom_rule_priority1"{
