@@ -8,16 +8,16 @@ locals{
     ]
 ])
 }
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "yvirg" {
   name     = var.resource_name
   location = var.location
 }
 
-resource "azurerm_web_application_firewall_policy" "example" {
+resource "azurerm_web_application_firewall_policy" "webapp" {
   for_each            ={for sp in local.azurewafpolicy_list: "${sp.name}"=>sp }
   name                = each.value.name
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
+  resource_group_name = azurerm_resource_group.yvirg.name
+  location            = azurerm_resource_group.yvirg.location
 
   custom_rules {
     name      = var.custom_rule_name1
