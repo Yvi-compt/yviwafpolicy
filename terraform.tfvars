@@ -1,4 +1,4 @@
-resource_name="example-rg"
+resource_name="yviexample-rg"
 location="West Europe"
 custom_rule_name1="Rule1"
 custom_rule_priority1=1
