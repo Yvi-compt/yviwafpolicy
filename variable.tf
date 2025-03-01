@@ -18,7 +18,7 @@ variable "location"{
   type=string
   default = "east us"
 }
-/*variable "custom_rule_name1"{
+variable "custom_rule_name1"{
   type=string
 }
 variable "custom_rule_priority1"{
@@ -137,4 +137,4 @@ variable "rule_enabled2"{
 }
 variable "rule_action2"{
   type=string
-}*/
+}
